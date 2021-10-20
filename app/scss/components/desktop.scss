@@ -1,0 +1,71 @@
+@use '../util' as *;
+
+main {
+    @include breakpoint(large){
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, .1fr);
+        gap: rem(25);
+        margin-top: rem(30);
+    }
+    @include breakpoint(xxlarge){
+        width: 1300px;
+    }
+}
+
+.dc {
+    @include breakpoint(large){
+        margin-bottom: 0;
+    }
+}
+
+.jw {
+    @include breakpoint(large){
+        padding: rem(30) rem(25) rem(30) rem(30);
+        margin-bottom: 0;
+    }
+
+}
+
+.kw {
+    @include breakpoint(large){
+        &--head {
+            color: var(--verydarkgrayishblue);
+            font-size: rem(19);
+            margin-bottom: rem(15);
+        }
+        &--body {
+            color: var(--verydarkgrayishblueOP7);
+            font-size: rem(14.6);
+        }
+    }
+}
+
+.kw {
+    @include breakpoint(xxlarge){
+        &--head {
+            color: var(--verydarkgrayishblue);
+            font-size: rem(22);
+            margin-bottom: rem(15);
+        }
+        &--body {
+            color: var(--verydarkgrayishblueOP7);
+            font-size: rem(16);
+        }
+    }
+}
+
+
+#a {
+    grid-column: 1 / span 2;
+    grid-row: 1/1;
+}
+
+#e {
+    grid-column: 4 / 5;
+    grid-row: 1 / span 2;
+}
+
+#d {
+    grid-column: 2 / span 2;
+}

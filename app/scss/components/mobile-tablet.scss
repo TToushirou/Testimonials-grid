@@ -1,0 +1,254 @@
+@use '../util' as *;
+
+
+
+// Design for Mobile 320px - 768px Tablet - large Tablet 1023px. 
+.dc {
+    background-color: var(--moderateviolet);
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-size: rem(105);
+    border-radius: rem(10);
+    margin-bottom: rem(25);
+    padding: rem(30);
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 20%);
+
+    &__profile {
+        display: flex;
+        align-items: center;
+        margin-bottom: rem(15);
+
+        .wrapper {
+            line-height: rem(8);
+        }
+    }
+
+    &--img {
+        border-radius: 50%;
+        height: rem(40);
+        border: rem(2) var(--lightgrayOP5) solid;
+        margin-right: rem(15);
+    }
+
+    &--name {
+        color: var(--lightgray);
+    }
+
+    &--head {
+        color: var(--lightgray);
+        font-size: rem(20);
+        margin-bottom: rem(20);
+    }
+
+    &--body {
+        color: var(--lightgrayOP7);
+    }
+}
+
+.jw {
+    background-color: var(--verydarkgrayishblue);
+    border-radius: rem(10);
+    margin-bottom: rem(25);
+    padding: rem(30);
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 20%);
+
+    &__profile {
+        display: flex;
+        align-items: center;
+        margin-bottom: rem(15);
+
+        .wrapper {
+            line-height: rem(8);
+        }
+    }
+
+    &--img {
+        border-radius: 50%;
+        height: rem(40);
+        border: rem(2) var(--lightgrayOP5) solid;
+        margin-right: rem(15);
+    }
+
+    &--name {
+        color: var(--lightgray);
+    }
+
+    &--head {
+        color: var(--lightgray);
+        font-size: rem(20);
+        margin-bottom: rem(20);
+    }
+
+    &--body {
+        color: var(--lightgrayOP7);
+    }
+}
+
+.jh {
+    background-color: var(--white);
+    border-radius: rem(10);
+    margin-bottom: rem(25);
+    padding: rem(30);
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 20%);
+
+    &__profile {
+        display: flex;
+        align-items: center;
+        margin-bottom: rem(15);
+
+        .wrapper {
+            line-height: rem(8);
+        }
+    }
+
+    &--img {
+        border-radius: 50%;
+        height: rem(40);
+        border: rem(2) var(--lightgrayOP5) solid;
+        margin-right: rem(15);
+    }
+
+    &--name {
+        color: var(--verydarkblackishblue);
+    }
+
+    &--head {
+        color: var(--verydarkgrayishblue);
+        font-size: rem(20);
+        margin-bottom: rem(20);
+    }
+
+    &--body {
+        color: var(--verydarkgrayishblueOP7);
+    }
+}
+
+.pa {
+    background-color: var(--verydarkblackishblue);
+    border-radius: rem(10);
+    margin-bottom: rem(25);
+    padding: rem(30);
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 20%);
+
+    &__profile {
+        display: flex;
+        align-items: center;
+        margin-bottom: rem(15);
+
+        .wrapper {
+            line-height: rem(8);
+        }
+    }
+
+    &--img {
+        border-radius: 50%;
+        height: rem(40);
+        border: rem(2) var(--lightgrayOP5) solid;
+        margin-right: rem(15);
+    }
+
+    &--name {
+        color: var(--lightgray);
+    }
+
+    &--head {
+        color: var(--lightgray);
+        font-size: rem(20);
+        margin-bottom: rem(20);
+    }
+
+    &--body {
+        color: var(--lightgrayOP7);
+    }
+}
+
+.kw {
+    background-color: var(--white);
+    border-radius: rem(10);
+    margin-bottom: rem(25);
+    padding: rem(30);
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 20%);
+
+    &__profile {
+        display: flex;
+        align-items: center;
+        margin-bottom: rem(15);
+
+        .wrapper {
+            line-height: rem(8);
+        }
+    }
+
+    &--img {
+        border-radius: 50%;
+        height: rem(40);
+        border: rem(2) var(--lightgrayOP5) solid;
+        margin-right: rem(15);
+    }
+
+    &--name {
+        color: var(--verydarkblackishblue);
+    }
+
+    &--head {
+        color: var(--verydarkgrayishblue);
+        font-size: rem(20);
+        margin-bottom: rem(20);
+    }
+
+    &--body {
+        color: var(--verydarkgrayishblueOP7);
+    }
+}
+
+small {
+    color: var(--lightgrayOP5) !important;
+}
+
+/*
+        &__JW {
+            
+
+        }
+
+        &__JH {
+            background-color: var(--white);
+
+        }
+
+        &__PA {
+            background-color: var(--verydarkblackishblue);
+
+        }
+
+        &__KW {
+            background-color: var(--white);
+
+        }
+
+
+        // Modifiers & non BEM code
+
+        
+
+        &--img {
+
+        }
+
+        &--name {
+
+        }
+
+
+
+        &--head {
+
+        }
+
+        &--body {
+
+        }
+    }
+
+*/
